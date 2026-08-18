@@ -31,7 +31,7 @@ export function Header() {
       <nav className="max-w-[1180px] mx-auto flex items-center justify-between px-6 py-4">
         <Link href="#home" className="flex items-center gap-2.5 font-display font-bold text-lg">
           <span className="w-2.5 h-2.5 rounded-full bg-ok shadow-[0_0_12px_var(--ok)] animate-pulse-dot" />
-          Toheeb<span className="text-accent">.</span>Dev
+          Atunde<span className="text-accent">.</span>Dev
         </Link>
 
         <ul className="hidden md:flex items-center gap-0.5">

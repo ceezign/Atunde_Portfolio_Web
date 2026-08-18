@@ -30,8 +30,9 @@ export interface Project {
   description: string;
   stack: string[];
   features: string[];
-  challenge: string;
-  lesson: string;
+  challenge?: string;
+  improvements?: string[];
+  lesson?: string;
   github: string;
   demo: string;
 }

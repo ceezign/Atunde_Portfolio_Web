@@ -17,7 +17,7 @@ export function Hero() {
           </span>
 
           <h1 className="font-display font-semibold text-[clamp(2.4rem,5.2vw,4rem)] leading-[1.05] mb-4">
-            {person.name} builds software that keeps <span className="text-accent">businesses running.</span>
+            {person.name} builds <span className="text-accent">Software</span> and keeps the <span className="text-accent">system</span> system behind it <span className="text-accent">running.</span>
           </h1>
 
           <div className="font-mono text-[clamp(1rem,2vw,1.25rem)] text-text-dim min-h-[1.6em] mb-6">
@@ -26,12 +26,7 @@ export function Hero() {
           </div>
 
           <p className="text-text-dim max-w-[560px] mb-9 text-[1.05rem]">
-            I started in accounting, moved into tech as a hobby about 4–5 years ago, and never looked
-            back. Today I&apos;m a full-stack developer and IT support specialist who&apos;s also
-            deepening my cybersecurity skills — which means I don&apos;t just ship features, I think
-            about uptime, access, and what happens when things break in production. I build scalable web
-            applications, automate the boring parts of operations, and help people trust their technology
-            again.
+            I&apos;m a Full-Stack Software Developer and IT Support Specialist focused on building practical, reliable technology. I develop web applications, automate business processes, work with databases and APIs, and solve the technical problems that keep people and businesses from getting things done. I&apos;m also deepening my cybersecurity expertise, with a focus on building software that&apos;s secure, reliable, and ready for the real world.
           </p>
 
           <div className="flex flex-wrap gap-3.5 mb-9">
@@ -87,11 +82,11 @@ export function Hero() {
             <span className="w-2.5 h-2.5 rounded-full bg-danger" />
             <span className="w-2.5 h-2.5 rounded-full bg-amber" />
             <span className="w-2.5 h-2.5 rounded-full bg-ok" />
-            <div className="ml-2 font-mono text-[0.72rem] text-text-faint">~/alex-morgan/status.log</div>
+            <div className="ml-2 font-mono text-[0.72rem] text-text-faint">~/atunde/status.log</div>
           </div>
           <div className="p-5 font-mono text-[0.82rem]">
             {[
-              { label: "freelance.rating", value: "5.0 ★", pill: "ok" },
+              { label: "freelance.rating", value: "4.5 ★", pill: "ok" },
               { label: "build.status", value: "passing", pill: "ok" },
               { label: "learning.now", value: "cybersecurity", pill: "warn" },
             ].map((row) => (
@@ -115,11 +110,11 @@ export function Hero() {
             </div>
             <div className="flex justify-between items-center py-2.5 border-b border-dashed border-border">
               <span className="text-text-dim">github.repos</span>
-              <span className="font-semibold">71 public</span>
+              <span className="font-semibold">72 public</span>
             </div>
             <div className="flex justify-between items-center py-2.5">
               <span className="text-text-dim">current.role</span>
-              <span className="text-accent font-semibold">IT Support Supervisor</span>
+              <span className="text-accent font-semibold">IT Support Supervisor and Software Developer</span>
             </div>
           </div>
         </motion.div>
