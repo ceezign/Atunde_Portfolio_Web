@@ -401,15 +401,72 @@ export const projects: Project[] = [
   },
 ];
 
+// export const services: Service[] = [
+//   { icon: "Code2", title: "Full Stack Web Development", description: "End-to-end web applications, from database design to a polished frontend." },
+//   { icon: "Server", title: "Backend & API Development", description: "Reliable backend services and integrations using Python, PHP, and Node.js." },
+//   { icon: "Database", title: "Database Design & Management", description: "Schema design, data cleaning, and reporting on top of SQL databases." },
+//   { icon: "Headset", title: "IT Support & Maintenance", description: "Hardware, software, Microsoft, and network troubleshooting for teams and offices." },
+//   { icon: "ShieldHalf", title: "Cybersecurity Assistance", description: "Security-conscious development practices, with growing specialist depth." },
+//   { icon: "Workflow", title: "Workflow Automation", description: "Selenium and Python scripts that remove repetitive manual work." },
+//   { icon: "Briefcase", title: "Business Software Development", description: "Custom tools for sales, inventory, and operations — informed by an accounting background." },
+//   { icon: "MessagesSquare", title: "Technical Consulting", description: "Freelance consulting on architecture, tooling, and technical problem solving." },
+// ];
+
 export const services: Service[] = [
-  { icon: "Code2", title: "Full Stack Web Development", description: "End-to-end web applications, from database design to a polished frontend." },
-  { icon: "Server", title: "Backend & API Development", description: "Reliable backend services and integrations using Python, PHP, and Node.js." },
-  { icon: "Database", title: "Database Design & Management", description: "Schema design, data cleaning, and reporting on top of SQL databases." },
-  { icon: "Headset", title: "IT Support & Maintenance", description: "Hardware, software, and network troubleshooting for teams and offices." },
-  { icon: "ShieldHalf", title: "Cybersecurity Assistance", description: "Security-conscious development practices, with growing specialist depth." },
-  { icon: "Workflow", title: "Workflow Automation", description: "Selenium and Python scripts that remove repetitive manual work." },
-  { icon: "Briefcase", title: "Business Software Development", description: "Custom tools for sales, inventory, and operations — informed by an accounting background." },
-  { icon: "MessagesSquare", title: "Technical Consulting", description: "Freelance consulting on architecture, tooling, and technical problem solving." },
+  {
+    icon: "Code2",
+    title: "Full-Stack Web Development",
+    description:
+      "Build complete web applications from responsive interfaces to backend services, APIs, databases, and deployment.",
+  },
+  {
+    icon: "Briefcase",
+    title: "Business Software & Internal Tools",
+    description:
+      "Build custom applications that streamline sales, operations, inventory, reporting, visitor management, and other business processes.",
+  },
+  {
+    icon: "Server",
+    title: "Backend & API Development",
+    description:
+      "Design and build reliable backend services, REST APIs, authentication systems, and third-party integrations using Python, Node.js, and PHP.",
+  },
+  {
+    icon: "Wrench",
+    title: "Web Application Maintenance",
+    description:
+      "Maintain, troubleshoot, improve, and extend existing web applications, APIs, databases, and integrations.",
+  },
+  {
+    icon: "Database",
+    title: "Database Design & Management",
+    description:
+      "Design database structures, write efficient queries, manage data, and build reliable reporting and data-driven solutions.",
+  },
+  {
+    icon: "Workflow",
+    title: "Workflow Automation",
+    description:
+      "Automate repetitive tasks and business workflows using Python, Selenium, APIs, and custom scripts.",
+  },
+  {
+    icon: "Headset",
+    title: "IT Support & Systems Maintenance",
+    description:
+      "Troubleshoot hardware, software, networking, Microsoft services, user access, and everyday IT infrastructure issues.",
+  },
+  {
+    icon: "ShieldHalf",
+    title: "Secure Application Development",
+    description:
+      "Build with security in mind through authentication, authorization, secure data handling, and security-conscious development practices.",
+  },
+  {
+    icon: "MessagesSquare",
+    title: "Technical Consulting",
+    description:
+      "Help individuals and businesses solve technical problems, choose the right tools, and turn technology requirements into practical solutions.",
+  },
 ];
 
 export const certifications: Certification[] = [
@@ -425,11 +482,11 @@ export const certifications: Certification[] = [
 ];
 
 export const stats: Stat[] = [
-  { value: 9, label: "Projects Completed", suffix: "+" },
+  { value: 10, label: "Projects Completed", suffix: "+" },
   { value: 20, label: "Technologies Used", suffix: "+" },
   { value: 71, label: "GitHub Repositories", suffix: "" },
-  { value: 4, label: "Years in Tech", suffix: "+" },
-  { value: 9, label: "Certifications & Diplomas", suffix: "" },
+  { value: 3, label: "Years in Tech", suffix: "+" },
+  { value: 9, label: "Certifications & Diplomas", suffix: "+" },
   { value: 5, label: "Freelance Rating", suffix: ".0 ★" },
 ];
 
@@ -438,7 +495,7 @@ export const blogPosts: BlogPost[] = [
   {
     category: "Career",
     title: "Why I traded accounting for code",
-    excerpt: "How a hobby that started 4–5 years ago turned into a full-stack career.",
+    excerpt: "How a hobby that started 3-4 years ago turned into a full-stack career.",
     date: "Coming soon",
     readTime: "— min read",
   },
@@ -465,24 +522,49 @@ export const blogPosts: BlogPost[] = [
   },
 ];
 
-// No testimonials supplied yet — placeholders, ready to swap for real quotes
-// (e.g. pulled from your Fiverr/Upwork reviews).
+
 export const testimonials: Testimonial[] = [
   {
-    quote: "Add a real client quote here — your Fiverr/Upwork 5-star reviews are a great source.",
-    name: "Client name",
-    role: "Fiverr / Upwork client",
+    quote: "I needed a simple website for my business and Jiggy helped bring the idea together. He understood what I wanted, made the site easy to use, and was willing to make changes when I had feedback. I’m happy with how it turned out.",
+    name: "Rizdam Boutique",
+    role: "Client ",
   },
   {
-    quote: "Add a second testimonial here, ideally from the IT Support or freelance side of your work.",
-    name: "Client name",
-    role: "Client / colleague",
+    quote: "We needed a better way to keep track of visitors, and Atunde built a registration system around what we actually needed. It made the whole process much easier for us, especially when we needed to look back at previous visitor records.",
+    name: "Sunflag Nig Ltd",
+    role: "Client",
   },
+  {
+    quote: "I’ve been using FitTrack to keep track of my workouts and progress. Everything is pretty straightforward, and I like having the information in one place instead of trying to remember everything myself",
+    name: "Emmanuel",
+    role: "User of fittrack app",
+  },
+  {
+    quote: "I actually like using Recipe Genie when I don't know what to cook. I can put in what I have and get different ideas from it. It's a simple idea, but it's really useful when you're stuck.",
+    name: "Kanyinsola",
+    role: "User of Recipe Genie",
+  },
+
+  {
+    quote: "Jiggy helped me set up our business domain and email. I honestly didn’t know much about the technical side of it, but he handled everything and explained things along the way. Everything was up and running without any stress.",
+    name: "Ezenwanta",
+    role: "Client",
+  },
+  
+  {
+    quote: "Jiggy built a small website for our gym and did a good job turning our ideas into something that actually worked. It gave us a much better way to show people our services and information online..",
+    name: "Burn It Down Fitness",
+    role: "Client ",
+  },
+  {
+    quote: "Jiggy helped automate a task that we were doing manually over and over again. It might seem like a small thing, but it saved us a lot of time and made the process much less stressful.",
+    name: "Manish",
+    role: "Colleague",
+  },
+  
 ];
 
-// Verified from your public GitHub profile (github.com/ceezign) at time of writing.
-// Follower count wasn't retrievable from this environment — update the placeholder below
-// once you have the exact number, or wire this section to the live GitHub API.
+
 export const githubStats = {
   publicRepos: 71,
   followers: null as number | null, // placeholder — GitHub API was rate-limited when checked
@@ -495,10 +577,10 @@ export const githubStats = {
     { name: "python-daily-challenge", language: "Python" },
   ],
   languages: [
-    { name: "Python", pct: 35, color: "var(--accent)" },
-    { name: "JavaScript", pct: 25, color: "var(--amber)" },
-    { name: "PHP", pct: 20, color: "#8B7CD8" },
-    { name: "HTML/CSS", pct: 15, color: "var(--ok)" },
-    { name: "Other", pct: 5, color: "var(--text-faint)" },
+    { name: "Python", pct: 30, color: "var(--accent)" },
+    { name: "JavaScript/ Node.js", pct: 30, color: "var(--amber)" },
+    { name: "React", pct: 15, color: "#8B7CD8" },
+    { name: "HTML/CSS", pct: 10, color: "var(--ok)" },
+    { name: "Other", pct: 15, color: "var(--text-faint)" },
   ],
 };
