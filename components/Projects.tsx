@@ -81,17 +81,17 @@ function ProjectCard({ project }: { project: Project }) {
               {project.features.join(" · ")}
             </div>
             <div>
-              <strong className="block text-text text-[0.8rem] mb-1">Challenge solved</strong>
+              <strong className="block text-text text-[0.8rem] mb-1">Improvements</strong>
               {project.improvements}
             </div>
             <div>
-              <strong className="block text-text text-[0.8rem] mb-1">Challenge solved</strong>
+              <strong className="block text-text text-[0.8rem] mb-1">Challenge </strong>
               {project.challenge}
             </div>
-            <div>
+            {/* <div>
               <strong className="block text-text text-[0.8rem] mb-1">Lesson learned</strong>
               {project.lesson}
-            </div>
+            </div> */}
           </div>
         )}
         <button
