@@ -11,8 +11,8 @@ export function Services() {
       <div className="max-w-[1180px] mx-auto px-6">
         <SectionHead
           tag="// 05 — Services"
-          title="How I can help your team or business."
-          description="Engineering, infrastructure, and security work — as a contractor, consultant, or full-time hire."
+          title="What I can build, fix, and improve."
+          description="I work across software development, IT support, automation, infrastructure, and security, helping businesses solve real technical problems as a freelancer, contractor, or full-time team member."
         />
         <div className="grid gap-5 [grid-template-columns:repeat(auto-fit,minmax(260px,1fr))]">
           {services.map((s, i) => (

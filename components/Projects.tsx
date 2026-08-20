@@ -82,6 +82,10 @@ function ProjectCard({ project }: { project: Project }) {
             </div>
             <div>
               <strong className="block text-text text-[0.8rem] mb-1">Challenge solved</strong>
+              {project.improvements}
+            </div>
+            <div>
+              <strong className="block text-text text-[0.8rem] mb-1">Challenge solved</strong>
               {project.challenge}
             </div>
             <div>

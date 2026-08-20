@@ -30,11 +30,11 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2.5 font-display font-bold text-lg mb-3">
               <span className="w-2.5 h-2.5 rounded-full bg-ok" />
-              Toheeb<span className="text-accent">.</span>Dev
+              Atunde<span className="text-accent">.</span>Dev
             </div>
             <p className="text-text-dim text-[0.9rem] max-w-[280px]">
-              Full-stack developer and IT support specialist working across software, infrastructure, and
-              (increasingly) security. Building things that hold up under real-world use.
+              Full-stack developer and IT support specialist working across software, infrastructure, and security. Building technology that holds up in the real world.
+              
             </p>
           </div>
           {Object.entries(footerLinks).map(([title, links]) => (

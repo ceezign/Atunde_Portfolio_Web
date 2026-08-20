@@ -11,8 +11,8 @@ export function Skills() {
       <div className="max-w-[1180px] mx-auto px-6">
         <SectionHead
           tag="// 02 — Skills"
-          title="A technical toolkit built across the whole stack."
-          description="From frontend polish to backend architecture to the infrastructure and security underneath it."
+          title="The tools behind how I work."
+          description="From building applications and managing databases to troubleshooting systems, supporting users, automating workflows, and improving security, these are the tools I use to get real problems solved."
         />
         <div className="grid gap-5 [grid-template-columns:repeat(auto-fit,minmax(280px,1fr))]">
           {skillCategories.map((cat, i) => (
