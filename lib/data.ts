@@ -270,14 +270,14 @@ export const projects: Project[] = [
   },
   {
     category: "Full Stack",
-    title: "Jiggy Marketplace",
+    title: "JiggyMart",
     description: "A full-stack PHP Laravel marketplace project supporting listings and transactions between users.",
-    stack: ["PHP", "Laravel", "MySQL"],
+    stack: ["PHP", "Laravel", "Supabase"],
     features: ["Product listings", "User accounts", "Transaction flow"],
     improvements: ["Add user review system, ", "Implement advanced search filters, ", "Enhance product categorization"],
     challenge: "Keeping the Laravel monolith organized as marketplace features grew.",
     github: "https://github.com/ceezign/Jiggy-Marketplace",
-    demo: "https://github.com/ceezign/Jiggy-Marketplace",
+    demo: "https://jiggymart.onrender.com/",
   },
   {
     category: "Full Stack",
@@ -299,7 +299,7 @@ export const projects: Project[] = [
     improvements: ["Add live chat support, ", "Implement analytics dashboard for sales team, ", "Enhance product search and filtering capabilities"],
     challenge: "Designing a quote-request workflow that felt as simple as adding something to a cart.",
     github: "https://github.com/ceezign/B2B-Sales-Platform",
-    demo: "https://b2b-sales-platform-production.up.railway.app/",
+    demo: "https://b2b-sales-platform.onrender.com/",
   },
   {
     category: "Full Stack",
@@ -325,14 +325,14 @@ export const projects: Project[] = [
   },
   {
     category: "Full Stack",
-    title: "Weather Forecast App",
-    description: "A Simple Weather Forecast App built with Python, Streamlit, and the OpenWeatherMap API, It allows users to search for weather information by city name and view current weather conditions along with a 5-day forecast",
-    stack: ["Python", "Streamlit", "JavaScript", "OpenWeatherMap API"],
+    title: "JigCast Weather Console",
+    description: "A polished, production-ready weather console built with Flask, vanilla JS, and Chart.js.. Search any city or town for current conditions, a 5-day forecast, and live interactive charts — with a UI that subtly reshapes itself to match the sky outside.",
+    stack: ["Python", "Flask", "JavaScript", "OpenWeatherMap API", "Chart.js"],
     features: ["Search weather by city name", "View current weather conditions", "5-day weather forecast"],
     improvements: ["Add geolocation feature to automatically detect user's location, ", "Implement weather alerts and notifications, ", "Enhance UI with interactive weather maps"],
     challenge: "Handling API rate limits and ensuring accurate weather data retrieval for different locations.",
     github: "https://github.com/ceezign/Weather-Forecast-App.git",
-    demo: "https://github.com/ceezign/Weather-Forecast-App.git",
+    demo: "https://jigcast-weather-console.onrender.com/",
   },
 
 
